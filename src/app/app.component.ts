@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Assentify';
+
+  sidebar: boolean = false;
+
+  sidebarOnEmit(data: boolean) {
+    this.sidebar = data;
+  }
+
 }

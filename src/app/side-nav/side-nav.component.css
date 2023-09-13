@@ -1,0 +1,36 @@
+.sidebar{
+    border-right:2px solid rgb(205, 200, 200);
+    width: max-content;
+    height:100vh;
+    
+}
+.item{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    font-size: 15px;
+    color: black;
+    padding: 7px 5px; 
+    margin:10px;
+    font-family: sans-serif;
+}
+.item:hover {
+    cursor: default;
+}
+.item-clicked{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    font-size: 15px;
+    color: white;
+    padding: 7px 5px;
+    margin: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: gold;
+    font-family: sans-serif;
+}
+li{
+    list-style: none;
+    margin-left: 10px;
+}
