@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
+import { Observable, of } from 'rxjs';
 
+
+type CustomDirection = "ltr" | "rtl" | "auto" | null;
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,11 +10,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Assentify';
+  itemClicked: boolean = false;
 
   sidebar: boolean = false;
 
   sidebarOnEmit(data: boolean) {
     this.sidebar = data;
   }
-
+  
 }

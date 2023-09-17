@@ -1,0 +1,25 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+mat-sidenav {
+    width: 15%;
+}
+
+mat-sidenav-container {
+    height: 100%;
+}
+
+mat-list-item {
+    align-items:center;
+    font-family: sans-serif;
+}
+.mat-list-item-clicked{
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+    border-radius: 50px;
+    background-color: gold;
+}
